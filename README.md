@@ -1,4 +1,4 @@
-# Ember-helpers-link-back
+# Dummy
 
 This README outlines the details of collaborating on this Ember addon.
 
