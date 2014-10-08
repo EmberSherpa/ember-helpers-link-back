@@ -1,3 +1,3 @@
 module.exports = {
-  name: 'dummy'
+  name: 'ember-helpers-link-back'
 };

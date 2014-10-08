@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('fruits', function(){
+    this.route('apples');
+    this.route('pears');
+  });
 });
 
 export default Router;
