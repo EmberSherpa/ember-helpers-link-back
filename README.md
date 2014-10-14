@@ -1,12 +1,20 @@
-# Dummy
+# ember-helpers-link-back
 
-This README outlines the details of collaborating on this Ember addon.
+**link-back** helper is similar to {{link-to}} except it takes **back=** argument that the link will link back to when on original path.
+
+## Example
+
+```handlebars
+{{#link-to 'destination' back='path.to.link.back.to'}}Go to destination{{/link-to}}
+```
+
+## Caveats
+
+* Doesn't accept query params for back parameters
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install --save ember-helpers-link-back`
 
 ## Running
 
@@ -15,6 +23,8 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Running Tests
 
+* `git clone git@github.com:embersherpa/ember-helpers-link-back.git`
+* `npm install`
 * `ember test`
 * `ember test --server`
 
